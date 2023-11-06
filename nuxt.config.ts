@@ -3,6 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   routeRules: {
     "/**": { isr: true },
-    "/api/**": { isr: true }
+    "/api/**": { cors: true }
   }
 })
